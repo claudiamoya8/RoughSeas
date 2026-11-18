@@ -1,1 +1,48 @@
+# Course material (assignment PDFs, slides): kept locally, never uploaded
 CourseMaterial/
+
+# Unity (the project lives in RoughSeas/)
+/RoughSeas/[Ll]ibrary/
+/RoughSeas/[Tt]emp/
+/RoughSeas/[Oo]bj/
+/RoughSeas/[Ll]ogs/
+/RoughSeas/[Uu]ser[Ss]ettings/
+/RoughSeas/[Bb]uild/
+/RoughSeas/[Bb]uilds/
+/RoughSeas/[Mm]emoryCaptures/
+/RoughSeas/[Rr]ecordings/
+/RoughSeas/.utmp/
+/RoughSeas/Assets/Plugins/Editor/JetBrains*
+/RoughSeas/*.csproj
+/RoughSeas/*.sln
+/RoughSeas/*.slnx
+/RoughSeas/*.suo
+/RoughSeas/*.user
+/RoughSeas/*.userprefs
+/RoughSeas/*.pidb
+/RoughSeas/*.pdb
+/RoughSeas/*.mdb
+/RoughSeas/*.opendb
+/RoughSeas/*.VC.db
+/RoughSeas/*.tmp
+/RoughSeas/sysinfo.txt
+/RoughSeas/crashlytics-build.properties
+
+# Code editors
+.vs/
+.vscode/
+.idea/
+
+# Operating system
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Builds and deliverables
+/Builds/
+/Deliverables/
+
+# ML-Agents
+/Training/results/
+/Training/.venv/
+__pycache__/
