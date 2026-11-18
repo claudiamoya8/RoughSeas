@@ -1,0 +1,46 @@
+# Normalise line endings
+* text=auto
+
+# Code and text
+*.cs       text diff=csharp
+*.md       text
+*.json     text
+*.yaml     text
+*.yml      text
+*.shader   text
+*.hlsl     text
+*.uss      text
+*.uxml     text
+*.inputactions text
+
+# Unity files: merged with UnityYAMLMerge (see Docs/04-setup.md, step A6)
+*.unity              text merge=unityyamlmerge eol=lf
+*.prefab             text merge=unityyamlmerge eol=lf
+*.asset              text merge=unityyamlmerge eol=lf
+*.mat                text merge=unityyamlmerge eol=lf
+*.anim               text merge=unityyamlmerge eol=lf
+*.controller         text merge=unityyamlmerge eol=lf
+*.overrideController text merge=unityyamlmerge eol=lf
+*.physicMaterial     text merge=unityyamlmerge eol=lf
+*.playable           text merge=unityyamlmerge eol=lf
+*.mask               text merge=unityyamlmerge eol=lf
+*.meta               text eol=lf
+
+# Binary files
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.psd   binary
+*.tga   binary
+*.fbx   binary
+*.glb   binary
+*.obj   binary
+*.blend binary
+*.wav   binary
+*.mp3   binary
+*.ogg   binary
+*.ttf   binary
+*.otf   binary
+*.onnx  binary
+*.zip   binary
+*.pdf   binary
